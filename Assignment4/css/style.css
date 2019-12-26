@@ -1,0 +1,358 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	float: left;
+	background: #8C6BBDE0;
+	padding: 25px 0;
+}
+.logo{
+
+	width: 35%;
+
+	float: left;
+	
+}
+.menu{
+
+	width: 65%;
+
+	float: left;
+}
+.menu nav ul{
+
+	list-style: none;
+}
+.menu nav ul li{
+
+	display: inline-block;
+
+	margin: 10px 35px;
+
+	font-size: 20px;
+}
+.menu nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+.header-title{
+	text-align: center;
+	width: 55%;
+	margin: 0 auto;
+	padding: 150px 0 80px 0;
+}
+.header-title h2{
+	font-size: 30px;
+}
+.btn{
+	background: #EB7D4A;
+    color: white;
+    box-shadow: 0px 3px #C26D50;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 25px;
+}
+.service{
+	width: 100%;
+	float: left;
+	padding: 25px 0;
+	background: #18C1A4;
+
+}
+.service-title{
+	width: 45%;
+	margin: 0 auto;
+	text-align: center;
+}
+.service-title h2{
+	padding-top: 20px;
+	font-size: 28px;
+}
+.service-title span{
+	border-bottom: 4px solid black;
+    display: block;
+    width: 80px;
+    margin: 10px auto;
+}
+
+.branding{
+	width: 23%;
+	float: left;
+	text-align: center;
+	margin: 0 10px;
+	padding: 50px 0;
+}
+
+.branding h3{
+	margin-top: 10px;
+}
+.branding p{
+	margin-top: 20px;
+}
+.branding .design{
+    margin-top: 5px;
+}
+.team{
+	width: 100%;
+	float: left;
+	padding: 25px 0;
+	background: #D3D3D3;
+}
+
+.team-members{
+	width: 22%;
+	float: left;
+	margin: 0 17px;
+    text-align: center;
+    padding: 40px 0px;
+
+}
+.team-members img {
+	width: 150px;
+}
+.team-members h3{
+    margin-top: 10px;
+}
+.team-members p{
+    margin-top: 15px;
+}
+.post{
+    color: blue;
+    margin-top: 0px!important;
+}
+.team-members ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.team-members ul li{
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+.team-members ul li a{
+    text-decoration: none;
+}
+.fa{
+	width: 32px;
+	height: 32px;
+	padding: 6px;
+	border-radius: 50%;
+	border: 1.5px solid white;
+	box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.036),
+  				0 6.7px 5.3px rgba(0, 0, 0, 0.046),
+  				0 12.5px 10px rgba(0, 0, 0, 0.010),
+  				0 22.3px 17.9px rgba(0, 0, 0, 0.079;
+}
+
+.fa:hover{
+	color: white !important;
+}
+.fa.fa-facebook{
+	color:  #3b5999;
+}
+
+.fa.fa-facebook:hover{
+	background: #3b5999;
+}
+.fa.fa-twitter{
+	color: #55acee;
+}
+.fa.fa-twitter:hover{
+	background: #55acee;
+}
+.fa.fa-linkedin{
+	color: #0077B5;
+}
+.fa.fa-linkedin:hover{
+	background: #0077B5;
+}
+.fa.fa-instagram{
+	color: #e4405f;
+}
+.fa.fa-instagram:hover{
+	background: #e4405f;
+}
+.skills{
+	width: 100%;
+	float: left;
+    padding: 25px 0;
+}
+.service-title.skill-title{
+
+}
+.skill-items{
+    width: 22%;
+    float: left;
+    text-align: center;
+    margin: 0px 17px;
+    padding: 40px 0;
+    position: relative;
+}
+.skill-items h3{
+    margin-top: 10px;
+}
+.skill-items p{
+    position: absolute;
+    top: 114px;
+    padding: 0px 110px;
+    font-weight: bold;
+}
+.portfolio{
+	width: 100%;
+	float: left;
+    padding: 25px 0;
+    background: #FFDC98;
+}
+.service-title.portfolio-title{
+
+}
+.service-title.portfolio-title .btn-portfolio{
+    margin: 26px 14px;
+    padding: 10px 15px;
+    background: #C8AF79;
+    border: none;
+    color: white;
+}
+.portfolio-item{
+    width: 45%;
+    float: left;
+    text-align: center;
+    margin: 0 20px;
+    padding: 12px 0;
+}
+.portfolio-item h3{
+    padding-top: 15px;
+    
+}
+.btn-port{
+	width: 50%
+	margin: 0 auto;
+	text-align: center;
+}
+.btn.btn-port-main{
+    background: #2FD0C0;
+    box-shadow: 0px 3px #049888;
+    margin-bottom: 35px;
+
+}
+
+.testimonial{
+	width: 100%;
+	float: left;
+    padding: 25px 0;
+    background: #D74681;
+    color: white;
+}
+.service-title.testimonial-title{
+
+}
+.testimonial-items{
+    width: 45%;
+    float: left;
+    margin: 40px 25px 25px 25px;
+}
+.testimonial-items-img{
+    width: 30%;
+    float: left;
+    margin-right: 25px;
+}
+.testimonial-items-img img{
+    width: 150px;
+}
+.testimonial-items-content{
+    width: 60%;
+    float: left;
+    padding-top: 20px;
+}
+.testimonial-items-content p{
+    font-style: italic;
+}
+.testimonial-items-content h3{
+    margin-top: 10px;
+}
+.post-testimonial{
+    color: #FFC252;
+    font-weight: bold;
+    font-style: normal !important;
+}
+
+.contact{
+	width: 100%;
+	float: left;
+    padding: 25px 0;
+    background: #3D549A;
+    color: white;
+}
+.service-title.contact-title{
+
+}
+.contact-form{
+	width: 70%;
+    text-align: center;
+    margin: 25px auto 0;
+}
+
+.name{
+    width: 48%;
+    height: 40px;
+    background: #0E3254;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.email{
+    width: 48%;
+    margin-left: 10px;
+    height: 40px;
+    background:  #0E3254;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.message{
+    width: 97.5%;
+    margin-top: 12px;
+    background: #0E3254;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.btn.btn-submit{
+    background: #2FD0C0;
+    box-shadow: 0px 3px #019484;
+    margin-bottom: 40px;
+}
+
+footer{
+	width: 100%;
+	float: left;
+    padding: 25px 0;
+    background: #344B8F;
+}
+.footer-menu{
+   
+}
+.footer-menu ul{
+    list-style: none;
+    
+}
+.footer-menu ul li{
+    display: inline-block;
+    margin: 10px 46px;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
